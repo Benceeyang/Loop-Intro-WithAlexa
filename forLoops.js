@@ -17,7 +17,19 @@
 //     console.log(i);
 // }
 
-let avengers = ["Thor", "CptAmerica", "IronMan", "Hulk", "HawkEye"];
-    for (let a = 0; a < avengers.length; a++){
-        console.log("You chose " + avengers[a])
-};
+
+//Avengers For Loop
+// let avengers = ["Thor", "CptAmerica", "IronMan", "Hulk", "HawkEye"];
+//     for (let a = 0; a < avengers.length; a++){
+//         console.log("You chose " + avengers[a])
+// };
+
+
+//Selecting a specific string using the first letter with a loop
+let jjk = ["Gojo", "Jogo", "Panda", "Itadori", "Maki", "Nobora", "Zenin"]
+for (let f = 0; f < jjk.length; f++){
+    if (jjk[f].startsWith("G")) {
+        console.log(jjk[f]);
+    }
+    // console.log(jjk[f])
+}
