@@ -33,3 +33,12 @@ for (let f = 0; f < jjk.length; f++){
     }
     // console.log(jjk[f])
 }
+
+//Selective String
+let anime = ["Bleach", "Naruto", "HunterxHunter", "86", "DBZ","One Piece"]
+    for (let c = 0; c < anime.length; c++){
+        if (c === 1,3){
+            console.log(anime[c]);
+        }
+    }
+
