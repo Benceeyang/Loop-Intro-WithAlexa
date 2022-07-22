@@ -18,11 +18,11 @@
 // }
 
 
-//Avengers For Loop
-// let avengers = ["Thor", "CptAmerica", "IronMan", "Hulk", "HawkEye"];
-//     for (let a = 0; a < avengers.length; a++){
-//         console.log("You chose " + avengers[a])
-// };
+// Avengers For Loop
+let avengers = ["Thor", "CptAmerica", "IronMan", "Hulk", "HawkEye"];
+    for (let a = 0; a < avengers.length; a++){
+        console.log("You chose " + avengers[a])
+};
 
 
 //Selecting a specific string using the first letter with a loop
@@ -34,11 +34,47 @@ for (let f = 0; f < jjk.length; f++){
     // console.log(jjk[f])
 }
 
-//Selective String
+//Selective String 
 let anime = ["Bleach", "Naruto", "HunterxHunter", "86", "DBZ","One Piece"]
     for (let c = 0; c < anime.length; c++){
-        if (c === 1,3){
+        if (c === 3){
             console.log(anime[c]);
         }
     }
 
+//NOTE Continue
+for (let r = 0; r < 8; r++){
+    if (r == 4) {
+        continue; //Skips the value 4
+    } else{
+        console.log(r);
+    }
+}
+// Example #2
+// let veggies = ["Broccoli", "Cauliflower", "Carrots", "Beets", "Cilantro", "Potatoes"];
+//     for (let v = 0; v < veggies.length; v++)
+//         if (v == 2){
+//             continue;
+//         } else {
+//             console.log(veggies[v])
+//         }
+
+
+//NOTE Break
+
+for (let s = 0; s <= 10; s++){
+    if (s == 7){
+        break;
+    } else {
+        console.log(s);
+    }
+};
+
+let veggies = ["Broccoli", "Cauliflower", "Carrots", "Beets", "Cilantro", "Potatoes"];
+for (let g = 0; g < veggies.length; g++){
+    if (g == 4){
+        break;
+    } else {
+        console.log(veggies[g])
+    }
+}
