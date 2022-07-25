@@ -18,9 +18,9 @@ let x = 0;
 let weight;    
 for (let r = 0; r < bag.length; r++) {
 
-  console.log(bag[r]);
-  weight = x + bag[r]
-  console.log(weight);
+  // console.log(bag[r]);
+  weight = x += bag[r]
+  // console.log(weight);
   // if (bag(10) + bag(30)){
     //     console.log(bag[r])};
     // // }else if() {
