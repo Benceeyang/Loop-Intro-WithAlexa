@@ -13,12 +13,33 @@ All one function
 Must use Loops
 */
 
-let luggage = [15,11,8,6];
- for(let e = luggage.length -1; e >=0; e--){
-    // if(luggage[e].startsWith("8")){
-        // return e <= /3
-        console.log(luggage[e]);
-    };
+let bag = [10,30,20,20,18,12];
+let x = 0;
+let weight;    
+for (let r = 0; r < bag.length; r++) {
+
+  console.log(bag[r]);
+  weight = x + bag[r]
+  console.log(weight);
+  // if (bag(10) + bag(30)){
+    //     console.log(bag[r])};
+    // // }else if() {
+      if (weight <= 40) {
+        console.log(weight)
+      } 
+      
+}
+        // }
+
+
+
+
+// let luggage = [15,11,8,6];
+//  for(let e = luggage.length -1; e >=0; e--){
+//     // if(luggage[e].startsWith("8")){
+//         // return e <= /3
+//         console.log(luggage[e]);
+//     };
 
 
 
