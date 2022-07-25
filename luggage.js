@@ -13,6 +13,8 @@ All one function
 Must use Loops
 */
 
+//This one only add two values... I am lost with this one. 
+
 let bag = [10,30,20,20,18,12];
 let x = 0;
 let weight;    
@@ -27,20 +29,21 @@ for (let r = 0; r < bag.length; r++) {
       if (weight <= 40) {
         console.log(weight)
       } 
-      
 }
         // }
 
 
+//Returns the array with the last value to the first one.
+let luggage = [15,11,8,6];
+ for(let e = luggage.length -1; e >=0; e--){
+    // if(luggage[e].startsWith("8")){
+        // return e <= /3
+        console.log(luggage[e]);
+    };
 
 
-// let luggage = [15,11,8,6];
-//  for(let e = luggage.length -1; e >=0; e--){
-//     // if(luggage[e].startsWith("8")){
-//         // return e <= /3
-//         console.log(luggage[e]);
-//     };
 
+// EVERYTHING UNDER HERE DOES NOT WORK
 
 
 
