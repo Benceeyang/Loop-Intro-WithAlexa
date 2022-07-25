@@ -28,7 +28,7 @@ let avengers = ["Thor", "CptAmerica", "IronMan", "Hulk", "HawkEye"];
 //Selecting a specific string using the first letter with a loop
 let jjk = ["Gojo", "Jogo", "Panda", "Itadori", "Maki", "Nobora", "Zenin"]
 for (let f = 0; f < jjk.length; f++){
-    if (jjk[f].startsWith("G")) {
+    if (jjk[f].startsWith("I")) {
         console.log(jjk[f]);
     }
     // console.log(jjk[f])
