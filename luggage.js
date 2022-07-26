@@ -16,10 +16,11 @@ Must use Loops
 //This one only add two values... I am lost with this one. 
 
 let bag = [10,30,20,20,18,12];
+
+
 let x = 0;
 let weight;    
 for (let r = 0; r < bag.length; r++) {
-
   // console.log(bag[r]);
   weight = x += bag[r]
   // console.log(weight);
